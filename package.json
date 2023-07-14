@@ -5,7 +5,7 @@
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.2.1",
     "antd": "^5.5.2",
     "axios": "^1.4.0",
@@ -43,7 +43,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "husky": "^8.0.0",
-    "prettier": "^2.8.8"
-  }
+    "prettier": "^2.8.8",
+    "react-test-renderer": "^18.2.0"
+  },
+  "cracoConfig": "craco.config.js"
 }
