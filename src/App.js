@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { BrowserRouter } from 'react-router-dom';
 import MainRoute from 'routers';
 import DashboardRoutes from 'routers/dashboard';
+import 'styles/index.scss';
 
 function App() {
   const queryClient = new QueryClient();
